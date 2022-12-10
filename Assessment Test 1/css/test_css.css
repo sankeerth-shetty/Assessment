@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: brown;
+    text-decoration: 2px underline;
+    padding: 10px 0px;
+}
+.section1-wrapper{
+    border: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+}
+.form-wrapper{
+    padding: 20px 10px;
+}
+.fields{
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.fields2{
+    display: flex;
+    padding-bottom: 10px;
+}
+.spec-space{
+    padding-top: 15px;
+}
+.labels{
+    width: 10%;
+}
+.inputs input{
+    padding: 5px 100px 5px 5px;
+}
+#input-gender{
+    padding-bottom: 10px;
+}
+.registered{
+    padding: 10px 10px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 3px;
+    color: white;
+}
+#date{
+    /* width: 544px; */
+    padding-right: 424px;
+}
+#address{
+    padding-right: 99px;
+}
