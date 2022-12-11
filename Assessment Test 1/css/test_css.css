@@ -31,10 +31,10 @@
     padding-top: 15px;
 }
 .labels{
-    width: 10%;
+    width: 12%;
 }
 .inputs input{
-    padding: 5px 100px 5px 5px;
+    padding: 5px 70px 5px 5px;
 }
 #input-gender{
     padding-bottom: 10px;
@@ -45,11 +45,12 @@
     border: 1px solid green;
     border-radius: 3px;
     color: white;
+    cursor: pointer;
 }
 #date{
     /* width: 544px; */
-    padding-right: 424px;
+    padding-right: 393px;
 }
 #address{
-    padding-right: 99px;
+    padding-right: 69px;
 }
