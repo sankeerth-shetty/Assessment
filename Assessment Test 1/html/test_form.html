@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/test_css.css">
     <!-- favicon -->
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <!-- title -->
     <title>Registration Form</title>
 </head>
 
@@ -27,159 +28,164 @@
                 <div class="form-wrapper">
                     <!-- first-name field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <label for="first-name">First Name:</label>
-                    </div>
-                    <div class="inputs">
-                        <input type="text" name="first-name" id="first-name" pattern="[A-Za-z]+" minlength="3" maxlength="6" placeholder="Enter your first name" size="58" required>
-                    </div>
+                        <div class="labels">
+                            <label for="first-name">First Name:</label>
+                        </div>
+                        <div class="inputs">
+                            <input type="text" name="first-name" id="first-name" pattern="[A-Za-z]+" minlength="3"
+                                maxlength="6" placeholder="Enter your first name" size="58" required>
+                        </div>
                     </div>
 
                     <!-- last-name field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <label for="last-name">Last Name:</label>
-                    </div>
-                    <div class="inputs">
-                        <input type="text" name="last-name" id="last-name" placeholder="Enter your last name" pattern="[A-Za-z]+" minlength="3" maxlength="6" size="58" required>
-                    </div>
+                        <div class="labels">
+                            <label for="last-name">Last Name:</label>
+                        </div>
+                        <div class="inputs">
+                            <input type="text" name="last-name" id="last-name" placeholder="Enter your last name"
+                                pattern="[A-Za-z]+" minlength="3" maxlength="6" size="58" required>
+                        </div>
                     </div>
 
                     <!-- email field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <label for="email">Email:</label>
-                    </div>
-                    <div class="inputs">
-                        <input type="email" name="email" id="email" placeholder="It should contain @. ." size="58" required>
-                    </div>
+                        <div class="labels">
+                            <label for="email">Email:</label>
+                        </div>
+                        <div class="inputs">
+                            <input type="email" name="email" id="email" placeholder="It should contain @. ." size="58"
+                                required>
+                        </div>
                     </div>
 
                     <!-- mobile field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <label for="mobile">Mobile:</label>
-                    </div>
-                    <div class="inputs">
-                        <input type="tel" name="mobile" id="mobile" placeholder="Only 10 digits are allowed" size="58" pattern="[0-9]{10}" maxlength="10" required>
-                    </div>
+                        <div class="labels">
+                            <label for="mobile">Mobile:</label>
+                        </div>
+                        <div class="inputs">
+                            <input type="tel" name="mobile" id="mobile" placeholder="Only 10 digits are allowed"
+                                size="58" pattern="[0-9]{10}" maxlength="10" required>
+                        </div>
                     </div>
 
                     <!-- gender field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <label for="input-gender">Gender:</label>
-                    </div>
-                    <div class="inputs" id="input-gender">
-                        <input type="radio" name="gender" id="male" required>
-                        <label for="male">Male</label>
+                        <div class="labels">
+                            <label for="input-gender">Gender:</label>
+                        </div>
+                        <div class="inputs" id="input-gender">
+                            <input type="radio" name="gender" id="male" required>
+                            <label for="male">Male</label>
 
-                        <input type="radio" name="gender" id="female" required>
-                        <label for="female">Female</label>
-                    </div>
+                            <input type="radio" name="gender" id="female" required>
+                            <label for="female">Female</label>
+                        </div>
                     </div>
 
                     <!-- date of birth field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <label for="date">Date Of Birth:</label>
-                    </div>
-                    <div class="inputs">
-                        <input type="date" name="date" id="date" required>
-                    </div>
+                        <div class="labels">
+                            <label for="date">Date Of Birth:</label>
+                        </div>
+                        <div class="inputs">
+                            <input type="date" name="date" id="date" required>
+                        </div>
                     </div>
 
                     <!-- address field  -->
                     <div class="fields2">
-                    <div class="labels">
-                        <label for="address" class="address">Address:</label>
-                    </div>
-                    <div class="inputs">
-                        <textarea name="address" id="address" cols="58" rows="10" size="58" required></textarea>
-                    </div>
+                        <div class="labels">
+                            <label for="address" class="address">Address:</label>
+                        </div>
+                        <div class="inputs">
+                            <textarea name="address" id="address" cols="58" rows="10" size="58" required></textarea>
+                        </div>
                     </div>
 
                     <!-- city field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <label for="city">City:</label>
-                    </div>
-                    <div class="inputs">
-                        <input type="text" name="city" id="city" size="58" required>
-                    </div>
+                        <div class="labels">
+                            <label for="city">City:</label>
+                        </div>
+                        <div class="inputs">
+                            <input type="text" name="city" id="city" size="58" required>
+                        </div>
                     </div>
 
                     <!-- area field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <label for="area-pin">Area PIN:</label>
-                    </div>
-                    <div class="inputs">
-                        <input type="text" name="area-pin" id="area-pin" pattern="[0-9]{6}" size="58" maxlength="6" required>
-                    </div>
+                        <div class="labels">
+                            <label for="area-pin">Area PIN:</label>
+                        </div>
+                        <div class="inputs">
+                            <input type="text" name="area-pin" id="area-pin" pattern="[0-9]{6}" size="58" maxlength="6"
+                                required>
+                        </div>
                     </div>
 
                     <!-- state field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <label for="state">State:</label>
-                    </div>
-                    <div class="inputs">
-                        <input type="text" name="state" id="state" size="58" required>
-                    </div>
+                        <div class="labels">
+                            <label for="state">State:</label>
+                        </div>
+                        <div class="inputs">
+                            <input type="text" name="state" id="state" size="58" required>
+                        </div>
                     </div>
 
                     <!-- qualification field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <label for="qualification">Qualification:</label>
-                    </div>
-                    <div class="inputs">
-                        <select name="qualification" id="qualification" required>
-                            <option value="select" selected>Select Qualification:</option>
-                            <option value="opt1">10+2[+]Graduation</option>
-                            <option value="opt2">diploma[+]Graduation</option>
-                            <option value="opt3">10+2[+]Graduation[+]Post Graduation</option>
-                            <option value="opt4">diploma[+]Graduation[+]Post Graduation</option>
-                        </select>
-                    </div>
+                        <div class="labels">
+                            <label for="qualification">Qualification:</label>
+                        </div>
+                        <div class="inputs">
+                            <select name="qualification" id="qualification" required>
+                                <option value="select" selected>Select Qualification:</option>
+                                <option value="opt1">10+2[+]Graduation</option>
+                                <option value="opt2">diploma[+]Graduation</option>
+                                <option value="opt3">10+2[+]Graduation[+]Post Graduation</option>
+                                <option value="opt4">diploma[+]Graduation[+]Post Graduation</option>
+                            </select>
+                        </div>
                     </div>
 
                     <!-- specialization field  -->
                     <div class="fields2 spec-space">
-                    <div class="labels">
-                        <label for="input-spec">Specialization:</label>
-                    </div>
-                    <div class="inputs" id="input-spec">
-                        <input type="checkbox" name="spec" id="CS">
-                        <label for="CS">Computer Science</label><br>
+                        <div class="labels">
+                            <label for="input-spec">Specialization:</label>
+                        </div>
+                        <div class="inputs" id="input-spec">
+                            <input type="checkbox" name="spec" id="CS">
+                            <label for="CS">Computer Science</label><br>
 
-                        <input type="checkbox" name="spec" id="IT">
-                        <label for="IT">Information Technology</label><br>
+                            <input type="checkbox" name="spec" id="IT">
+                            <label for="IT">Information Technology</label><br>
 
-                        <input type="checkbox" name="spec" id="CA">
-                        <label for="CA">Computer Architecture</label><br>
+                            <input type="checkbox" name="spec" id="CA">
+                            <label for="CA">Computer Architecture</label><br>
 
-                        <input type="checkbox" name="spec" id="TC">
-                        <label for="TC">Tele Communication</label><br>
-                    </div>
+                            <input type="checkbox" name="spec" id="TC">
+                            <label for="TC">Tele Communication</label><br>
+                        </div>
                     </div>
 
                     <!-- password field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <label for="password">Password:</label>
-                    </div>
-                    <div class="inputs">
-                        <input type="password" name="password" id="password" size="58" required>
-                    </div>
+                        <div class="labels">
+                            <label for="password">Password:</label>
+                        </div>
+                        <div class="inputs">
+                            <input type="password" name="password" id="password" size="58" required>
+                        </div>
                     </div>
 
                     <!-- registered button field  -->
                     <div class="fields">
-                    <div class="labels">
-                        <input type="submit" value="Registered" class="registered">
-                    </div>
+                        <div class="labels">
+                            <input type="submit" value="Registered" class="registered">
+                        </div>
                     </div>
                 </div>
             </form>
