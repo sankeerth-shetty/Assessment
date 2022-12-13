@@ -34,7 +34,7 @@
     width: 12%;
 }
 .inputs input{
-    padding: 5px 70px 5px 5px;
+    padding: 7px 70px 7px 6px;
 }
 #input-gender{
     padding-bottom: 10px;
@@ -52,5 +52,5 @@
     padding-right: 393px;
 }
 #address{
-    padding-right: 69px;
+    padding-right: 70px;
 }
