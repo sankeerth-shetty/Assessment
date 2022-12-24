@@ -4,9 +4,6 @@
     box-sizing: border-box;
     background-color: aquamarine;
 }
-#header{
-    background-color: antiquewhite;
-}
 .container{
     width: 85%;
     margin: 0 auto;
@@ -16,6 +13,7 @@
 .row{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: white;
 }
 .nav-background{
@@ -38,12 +36,13 @@
 .nav-logo img{
     width: 15%;
     border-radius: 55px;
-    margin-left: 20px;
+    margin-top: 5px;
+    /* margin-left: 20px; */
 }
-.nav-buttons{
+#nav-buttons{
     background-color: white;
 }
-.nav-buttons ul{
+#nav-buttons ul{
     display: flex;
     list-style: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,10 +51,10 @@
     /* display: none; */
     /* border: 1px solid red; */
 }
-.nav-buttons li{
+#nav-buttons li{
     background-color: white;
 }
-.nav-buttons ul li a{
+#nav-buttons ul li a{
     text-decoration: none;
     color: black;
     margin-left: 30px;
@@ -72,7 +71,7 @@
 
 
 
-@media (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 767px){
     .row{
         display: block;
         align-items: center;
@@ -84,33 +83,29 @@
     }
     .nav-logo img{
         width: 20%;
-        border-radius: 55px;
+        border-radius: 65px;
         margin-top: 5px;
         margin-left: 0;
     }
-    .nav-buttons{
+    #nav-buttons{
         display: none;
-        background-color: white;
     }
-    .nav-buttons ul{
+    #nav-buttons ul{
         display: block;
         list-style: none;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 18px;
         padding-bottom: 5px;
-        background-color: white;
         /* display: none; */
         /* border: 1px solid red; */
     }
-    .nav-buttons ul li{
-        margin: 20px 0px;
-        background-color: white;
+    #nav-buttons ul li{
+        margin: 25px 0px;
     }
-    .nav-buttons ul li a{
+    #nav-buttons ul li a{
         text-decoration: none;
         color: black;
         margin-left: 0px;
-        background-color: white;
         /* display: none; */
     }
     .bars a{
@@ -120,5 +115,64 @@
         background-color: white;
         /* display: none; */
         /* border: 1px solid red; */
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 900px){
+    .row{
+        display: block;
+        align-items: center;
+        background-color: white;
+    }
+    .nav-logo{
+        width: auto;
+        /* border: 1px solid blue; */
+    }
+    .nav-logo img{
+        width: 18%;
+        border-radius: 65px;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    #nav-buttons{
+        display: none;
+    }
+    #nav-buttons ul{
+        display: block;
+        list-style: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        padding-bottom: 5px;
+        /* display: none; */
+        /* border: 1px solid red; */
+    }
+    #nav-buttons ul li{
+        margin: 25px 0px;
+    }
+    #nav-buttons ul li a{
+        text-decoration: none;
+        color: black;
+        margin-left: 0px;
+        /* display: none; */
+    }
+    .bars a{
+        text-decoration: none;
+        color: rgb(85, 186, 248);
+        display: block;
+        background-color: white;
+        /* display: none; */
+        /* border: 1px solid red; */
+    }
+}
+
+
+
+@media (min-width: 901px) and (max-width: 1100px){
+    .nav-logo img{
+        width: 20%;
+        border-radius: 60px;
+        margin-top: 5px;
+        /* margin-left: 20px; */
     }
 }
