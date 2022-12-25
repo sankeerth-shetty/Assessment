@@ -29,7 +29,6 @@
     background-color: white;
 }
 .nav-logo{
-    width: auto;
     /* border: 1px solid blue; */
     background-color: white;
 }
@@ -40,6 +39,7 @@
     /* margin-left: 20px; */
 }
 #nav-buttons{
+    display: block;
     background-color: white;
 }
 #nav-buttons ul{
@@ -52,9 +52,11 @@
     /* border: 1px solid red; */
 }
 #nav-buttons li{
+    display: block;
     background-color: white;
 }
 #nav-buttons ul li a{
+    display: block;
     text-decoration: none;
     color: black;
     margin-left: 30px;
@@ -101,11 +103,13 @@
     }
     #nav-buttons ul li{
         margin: 25px 0px;
+        display: block;
     }
     #nav-buttons ul li a{
         text-decoration: none;
         color: black;
         margin-left: 0px;
+        display: block;
         /* display: none; */
     }
     .bars a{
@@ -174,5 +178,11 @@
         border-radius: 60px;
         margin-top: 5px;
         /* margin-left: 20px; */
+    }
+}
+
+@media (min-width: 1100px){
+    #nav-buttons{
+        display: block;
     }
 }
