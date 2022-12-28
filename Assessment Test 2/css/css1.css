@@ -63,6 +63,9 @@
     background-color: white;
     /* display: none; */
 }
+#nav-buttons2{
+    display: none;
+}
 .bars a{
     text-decoration: none;
     color: rgb(85, 186, 248);
@@ -92,7 +95,10 @@
     #nav-buttons{
         display: none;
     }
-    #nav-buttons ul{
+    #nav-buttons2{
+        display: block;
+    } 
+    #nav-buttons2 ul{
         display: block;
         list-style: none;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -101,11 +107,11 @@
         /* display: none; */
         /* border: 1px solid red; */
     }
-    #nav-buttons ul li{
+    #nav-buttons2 ul li{
         margin: 25px 0px;
         display: block;
     }
-    #nav-buttons ul li a{
+    #nav-buttons2 ul li a{
         text-decoration: none;
         color: black;
         margin-left: 0px;
