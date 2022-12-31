@@ -14,11 +14,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
 }
 .nav-background{
     /* border: 1px solid red; */
-    background-color: white;
     box-shadow: 0px 6px 10px gray;
 }
 .navbar{
@@ -26,11 +24,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-}
-.nav-logo{
-    /* border: 1px solid blue; */
-    background-color: white;
 }
 .nav-logo img{
     width: 15%;
@@ -40,30 +33,32 @@
 }
 #nav-buttons{
     display: block;
-    background-color: white;
 }
 #nav-buttons ul{
     display: flex;
     list-style: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
-    background-color: white;
     /* display: none; */
     /* border: 1px solid red; */
 }
 #nav-buttons li{
     display: block;
-    background-color: white;
 }
 #nav-buttons ul li a{
     display: block;
     text-decoration: none;
     color: black;
     margin-left: 30px;
-    background-color: white;
     /* display: none; */
 }
-#nav-buttons2{
+.nav-buttons2{
+    display: none;
+}
+.nav-buttons2 ul{
+    display: none;
+}
+.nav-buttons2 ul li{
     display: none;
 }
 .bars a{
@@ -72,68 +67,17 @@
     display: none;
     /* border: 1px solid red; */
 }
-
-
-
-
-@media (min-width: 576px) and (max-width: 767px){
-    .row{
-        display: block;
-        align-items: center;
-        background-color: white;
-    }
-    .nav-logo{
-        width: auto;
-        /* border: 1px solid blue; */
-    }
-    .nav-logo img{
-        width: 20%;
-        border-radius: 65px;
-        margin-top: 5px;
-        margin-left: 0;
-    }
-    #nav-buttons{
-        display: none;
-    }
-    #nav-buttons2{
-        display: block;
-    } 
-    #nav-buttons2 ul{
-        display: block;
-        list-style: none;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 18px;
-        padding-bottom: 5px;
-        /* display: none; */
-        /* border: 1px solid red; */
-    }
-    #nav-buttons2 ul li{
-        margin: 25px 0px;
-        display: block;
-    }
-    #nav-buttons2 ul li a{
-        text-decoration: none;
-        color: black;
-        margin-left: 0px;
-        display: block;
-        /* display: none; */
-    }
-    .bars a{
-        text-decoration: none;
-        color: rgb(85, 186, 248);
-        display: block;
-        background-color: white;
-        /* display: none; */
-        /* border: 1px solid red; */
-    }
+.white{
+    background-color: white;
 }
 
 
-@media (min-width: 768px) and (max-width: 900px){
+
+
+@media (min-width: 576px) and (max-width: 900px){
     .row{
         display: block;
         align-items: center;
-        background-color: white;
     }
     .nav-logo{
         width: auto;
@@ -148,7 +92,10 @@
     #nav-buttons{
         display: none;
     }
-    #nav-buttons ul{
+    #nav-buttons2{
+        display: none;
+    }
+    #nav-buttons2 ul{
         display: block;
         list-style: none;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -157,20 +104,25 @@
         /* display: none; */
         /* border: 1px solid red; */
     }
-    #nav-buttons ul li{
+    #nav-buttons2 ul li{
         margin: 25px 0px;
     }
-    #nav-buttons ul li a{
+    #nav-buttons2 ul li a{
         text-decoration: none;
         color: black;
         margin-left: 0px;
         /* display: none; */
     }
+    .nav-buttons2 ul{
+        display: block;
+    }
+    .nav-buttons2 ul li{
+        display: block;
+    }
     .bars a{
         text-decoration: none;
         color: rgb(85, 186, 248);
         display: block;
-        background-color: white;
         /* display: none; */
         /* border: 1px solid red; */
     }
