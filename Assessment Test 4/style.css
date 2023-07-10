@@ -1,0 +1,56 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(17, 17, 17);
+}
+.background{
+    margin: 40px 100px;
+    border: 1px solid rgb(46, 46, 46);
+    background-color: rgb(46, 46, 46);
+}
+.bg{
+    /* border: 1px solid white; */
+}
+.background2{
+    /* border: 1px solid white; */
+    margin: 40px;
+    padding: 0px 30px;
+}
+#mborder{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 30rem;
+}
+.inimgs{
+    width: 100%;
+    height: 100%;
+}
+#simg{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid rgb(214, 3, 3);  */
+    align-items: center;
+}
+#left, #slide, #right{
+    /* border: 1px solid rgb(214, 193, 3);  */
+    width: 90%;
+    padding: 10px;
+}
+#slide{
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px 0px 30px 0px;
+}
+#slide::-webkit-scrollbar {
+    display: none;
+}
+.aimg{
+    width: 100%;
+    height: 100px;
+    padding: 3px;
+    justify-content: space-around;
+    cursor: pointer;
+}
